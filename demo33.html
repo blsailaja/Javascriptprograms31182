@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>JAVASCRIPT</title>
+        <script>
+            //string operations
+            const txt = "sdpProject"
+            document.writeln(`Text = ${txt}</br>`)
+            document.writeln(`Length=${txt.length}</br>`) //document.writeln("Length ="+txt.length+"</br>")
+            document.writeln(txt.concat(" mswd")+"</br>")
+            document.writeln(txt.toUpperCase()+"</br>")
+            document.writeln(txt.toLowerCase()+"</br>")
+            document.writeln(txt.charAt(5)+"</br>")
+            //document.writeln(txt.charCodeAt(t))
+            //index starts from 0
+            document.writeln(`${txt[2]},${txt[6]},${txt[8]}</br>`)
+            document.writeln(txt.substring(3,7)+"</br>") 
+            //start,end - here end takes end-1 value
+
+            document.writeln("<u> Displaying Characters in text using loops</u></br>")
+            for(const ch of txt){
+                document.writeln(ch)
+            }
+
+
+
+        </script>
+    </head>
+</html>
